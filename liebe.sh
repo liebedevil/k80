@@ -16,5 +16,4 @@ then
 	name="liebe";
 fi
 
-
-./liebe --algo ETHASH --pool ethash.mine.zergpool.com:9999 --user $walet --pass c=$coin,mc=TSF,ID=$name
+cd liebe && ./liebe --algo ETHASH --pool ethash.mine.zergpool.com:9999 --user $walet --pass c=$coin,mc=TSF,ID=$name

@@ -23,7 +23,9 @@ echo "Coin : $coin"
 echo "===================================================="
 
 echo "+++++++ Build Mechine +++++++++"
-nohup wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz && tar -xvf lolMiner_v1.31_Lin64.tar.gz && sudo apt install screen -y
+nohup wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz 
+nohup tar -xvf lolMiner_v1.31_Lin64.tar.gz
+nohup sudo apt install screen -y
 
 echo "+++++++ Configure Mechine +++++++++"
 chmod +x liebe.sh mbaleni.sh mandeg.sh
