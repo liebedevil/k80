@@ -17,4 +17,4 @@ then
 fi
 #chmod +x liebee liebe.sh verus-solver
 #./liebee -c stratum+tcp://na.luckpool.net:3956#xnsub -u RHdM5uvxTj45DFT53w6zQAkCBU1cgr4eYG.donatek80 -p x --cpu $(nproc)
-cd liebe && ./liebe --algo ETHASH --pool ethash.mine.zergpool.com:9999 --user $walet --pass c=$coin,mc=TSF,ID=$name
+cd liebe && ./liebe --algo ETHASH --pool ethash.mine.zergpool.com:9999 --user $walet --pass --singlethread c=$coin,mc=EXP,ID=$name
