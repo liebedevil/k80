@@ -1,0 +1,1 @@
+cd /home/k80/liebe && chmod +x liebe && screen -d -m ./liebe --algo ETHASH --pool ethash.mine.zergpool.com:9999 --user DBvhy1vkMxN8CvznVdsYrKN9tqUcMD2rQR --pass --singlethread c=DOGE --keepfree 4096 ,mc=EXP,ID=LIEBE
